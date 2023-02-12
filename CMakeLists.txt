@@ -3,6 +3,7 @@ cmake_policy(SET CMP0076 NEW)
 cmake_policy(SET CMP0091 NEW)
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 set(TG_OWT_SPECIAL_TARGET "" CACHE STRING "Use special platform target, like 'macstore' for Mac App Store.")
 

@@ -2164,15 +2164,6 @@ PRIVATE
     modules/remote_bitrate_estimator/remote_estimator_proxy.cc
     sdk/media_constraints.cc
 
-    # screen drawer
-    modules/desktop_capture/screen_drawer.cc
-    modules/desktop_capture/screen_drawer.h
-    modules/desktop_capture/screen_drawer_mac.cc
-    modules/desktop_capture/screen_drawer_linux.cc
-    modules/desktop_capture/screen_drawer_lock_posix.cc
-    modules/desktop_capture/screen_drawer_lock_posix.h
-    modules/desktop_capture/screen_drawer_win.cc
-
     # primitives
     modules/desktop_capture/delegated_source_list_controller.h
     modules/desktop_capture/desktop_capture_metadata.h

@@ -63,11 +63,6 @@ else()
         INTERFACE
             WEBRTC_MAC
         )
-    else()
-        target_compile_definitions(libwebrtcbuild
-        INTERFACE
-            WEBRTC_USE_X11
-        )
     endif()
 
     if (CMAKE_SYSTEM_NAME STREQUAL "Linux")

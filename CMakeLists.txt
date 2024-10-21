@@ -181,8 +181,8 @@ endif()
 include(cmake/libwebrtcbuild.cmake)
 target_link_libraries(tg_owt PUBLIC tg_owt::libwebrtcbuild)
 
-if (TG_OWT_USE_X11)
-    link_x11(tg_owt)
+if (UNIX AND NOT APPLE)
+    link_glib(tg_owt)
 endif()
 
 function(add_sublibrary postfix)
